@@ -1,4 +1,4 @@
-package data;
+package ru.itmatveev.parsecryptopair.data;
 
 import lombok.*;
 
