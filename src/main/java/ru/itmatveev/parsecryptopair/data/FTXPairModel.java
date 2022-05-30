@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Getter
 @Setter
-public class BinancePairModel {
+public class FTXPairModel {
     private long id;
     private String pairName;
     private BigDecimal sell;// почём мы можем продать

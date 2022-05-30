@@ -9,9 +9,10 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Getter
 @Setter
-public class BinancePairModel {
+public class ExmoPairModel {
     private long id;
     private String pairName;
+    private String editName;//удаляем символ "_" для адекватного сравнения пар между биржами
     private BigDecimal sell;// почём мы можем продать
     private BigDecimal buy;//почём мы можем купить
 }
